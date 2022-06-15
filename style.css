@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 13%;
+    width: 100%;
+    padding: 0 8%;
+    background-color: black;
+    position: fixed;
+    z-index: 12;    
+    
+}
+
+.nav1-title{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 100px;
+}
+.nav-subtitle{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 100px;
+}
+.sign{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 100px;
+    background-color: black;
+    
+}
+
+.logo{
+    width: 200px;
+}
+
+.nav-links{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    position: relative;
+}
+.nav-links li a::after{
+    content: '';
+    background-color: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s;
+}
+.nav-links li a:hover::after{
+    width: 100%;
+}
+.btn{
+    background-color: #ff3d00;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.eye{
+    padding: 0px;
+    font-size: 12px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 2px;
+    border-radius: 10%;
+}
+.content{
+    background-color: black;
+    opacity: 85%;
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    width: 100%;
+    padding: 12px;
+    max-width: 750px;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    margin-top: 100px;    
+}
+.content1{
+    position: absolute;
+    left: 50%;
+    top: -15%;
+    width: 100%;
+    max-width: 950px;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    margin-top: 100px;    
+}
+.content2{
+    position: absolute;
+    left: 50%;
+    top: -42%;
+    width: 100%;
+    max-width: 900px;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    margin-top: 100px;   
+}
+.content h1{
+    font-size: 69px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.nav-form1{
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+       
+}
+.nav-form1 input{
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.nav-form2{
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+.nav-form2 input{
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.nav-form3 button{   
+    background-color: red;
+    border-radius: 6px;
+    color: white;
+    left: 50%;
+    padding: 20px 40px;
+    border: none;
+    
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-form3 button:hover {
+    background-color: green;
+    border-radius: 6px;
+    padding: 20px 40px;
+    left: 50%;
+    color: white;
+  }
+
+.nav-form4{
+    background-color: white;
+    padding: 6px;
+    border-radius: 7px;
+    display: flex;
+}
+.nav-form4 input{
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0 20px;
+    font-size: 16.8px;
+    text-align: left;
+}
+.nav-form3::after{
+    content: '';
+    background-color: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s;
+}
+.nav-form3:hover::after{
+    width: 100%;
+}
+.nav-form3{
+    text-decoration: none;
+    color: white;
+    padding: 2px 0;
+    position: relative ;
+}
+.background2{
+    width: 15%;
+    z-index: -1;
+    filter: blur(50px);
+    left: 0;
+    top: 0;
+}
+.nav-form5{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    border: none;
+}
+.nav-form5 textarea{
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0 22px;
+    font-size: 20px;
+    text-align: left;
+    border: none;
+    text-align: center;
+}
+.boxed {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    border: none;
+  }
+
+

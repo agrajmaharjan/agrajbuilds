@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 13%;
+    width: 100%;
+    padding: 0 8%;
+    background-color: black;
+    position: fixed;
+    z-index: 12;    
+    
+}
+
+.nav1-title{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 100px;
+}
+.nav-subtitle{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 100px;
+}
+h2{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 60px;
+}
+h3{
+        font-family: 'Patrick Hand', cursive;
+        font-size: 100px;
+}
+h4{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+}
+.logo{
+    width: 200px;
+}
+
+.nav-links{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    position: relative;
+}
+.nav-links li a::after{
+    content: '';
+    background-color: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s;
+}
+.nav-links li a:hover::after{
+    width: 100%;
+}
+.btn{
+    background-color: #ff3d00;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form{
+    background-color: rgb(0, 0, 0);
+    opacity: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 50px;
+    border-color: black;
+    top: 20%;
+}
+form input, form textarea{
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: white;
+    font-size: 16px;  
+    border-color: white;
+}
+form button{
+    padding: 15px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border-color: green;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: -42%;
+    width: 100%;
+    max-width: 900px;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    margin-top: 100px;     
+}
+.container{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(media/hello.gif);    
+}
+.send1 button:hover {
+    padding: 15px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    border-color: red;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+.about img{
+     height: 50%;
+     top: 50%;
+     width: 435px;
+}
+.about-text{
+    background-color: black;
+    opacity: 85%;
+    padding: 2%;
+     
+    position: relative;
+    left: 110%;
+    width: 700px;
+    margin-top: 1%;
+    max-width: 95%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+.main{
+    position: absolute;
+    left: 20%;
+    top: -68%;
+    width: 1130px;
+    max-width: 95%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    margin-top: 100px;  
+    align-items: center;
+}
+.photo{
+    position: absolute;
+    left: 20%;
+    top: -35%;
+    width: 1030px;
+    max-width: 95%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    margin-top: 100px;  
+    align-items: center;
+}
+.about-text h2{
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    left: 50%;
+    top: -42%;
+}
+.about-text h5{
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    left: 50%;
+    top: -42%;
+}
+span{
+    color: #f9004d;;
+}
+.about-text p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    left: 50%;
+    top: -42%;
+}
